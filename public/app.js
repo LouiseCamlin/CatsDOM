@@ -1,21 +1,3 @@
-// //creating an article with a class 'quote'
-//   var quoteArticle = document.createElement("article");
-//   quoteArticle.classList.add("quote");
-// //creating a block quote with inner text
-//   var blockQuote = document.createElement("blockquote");
-//   blockQuote.innerText = "Why not dogs? Why can't dogs come? ";
-//   //console.log(blockQuote)
-// //creating a cite with text inside it
-//   var cite = document.createElement("cite");
-//   cite.innerText = "Craig Morton";
-// //put the cite in the block quote
-//   blockQuote.appendChild(cite);
-// //put the block quote in the article
-//   quoteArticle.appendChild(blockQuote);
-// //getting the target element (the existing list of quotes)
-//   var quoteList = document.querySelector("#quotes");
-// //putting the full article tag in the list of quotes
-//   quoteList.appendChild(quoteArticle);
 
 var app = function() {
 
