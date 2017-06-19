@@ -6,3 +6,28 @@
 .red-quote{
   color: red;
 }
+
+body {
+  font-family: 'Inknut Antiqua', serif; 
+  letter-spacing: -0.05rem;
+  line-height: 140%;
+  background-color: #E8E3D8;
+  text-align: center;
+
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  padding-top: 30px;
+  overflow: hidden;
+  font-size: 
+}
+
+h1 {
+  color: #59451D;
+  padding-left: 14px;
+  text-align: center;
+}
