@@ -79,8 +79,17 @@ var appendElements = function(cats, list, listCatName, listCatFood, listImg){
 
 }
 
+var catArray = [
+{name: "Alex", faveFood: "Salmon", img: "https://images-production.global.ssl.fastly.net/uploads/posts/image/47360/grumpy-cat.jpg"},
+{name: "Boba", faveFood: "Sock Fluff", img: "http://66.media.tumblr.com/d1f01bbe0150fda0c40d2151c5eaeac8/tumblr_odlqqskjj61v9cejwo1_400.jpg"},
+{name: "Barnaby", faveFood: "Tuna", img: "https://68.media.tumblr.com/88d0fcf2b84a7b098dda839130597569/tumblr_okuo4teiql1uhevdso1_1280.jpg"},
+{name: "Max", faveFood: "Whiskas Temptations", img: "http://66.media.tumblr.com/7c5784ea89369c780e782bf10c60315a/tumblr_npb0hlYwhV1u63jaco1_1280.jpg"}
+];
+
 var app = function() {
-  addCat("Alex","Salmon", "https://images-production.global.ssl.fastly.net/uploads/posts/image/47360/grumpy-cat.jpg")
+  for (var cat of catArray){
+    addCat(cat.name, cat.faveFood, cat.img)
+  }
 };
 
 window.onload = app;
